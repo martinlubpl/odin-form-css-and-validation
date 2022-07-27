@@ -64,4 +64,26 @@
 .rightside {
     width: 60vw;
     background-color: rgb(26, 45, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.intro, fieldset {padding: 2rem;}
+.intro>p.remote-text {
+    margin: 10vh 0;
+}
+
+fieldset {
+    background-color: #025470;
+    border: none;
+    box-shadow: 0px 5px 5px rgba(89, 156, 171, 0.5);
+    margin-bottom: 1rem;
+}
+
+fieldset>h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
