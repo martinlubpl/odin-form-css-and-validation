@@ -8,11 +8,13 @@
     font-weight: 500;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .content {
     display: flex;
-    height: 100vh;
+    /* height: 100%; */
+    min-height: 100vh;
     
 }
 
@@ -72,7 +74,7 @@
 
 .intro, fieldset {padding: 2rem;}
 .intro>p.remote-text {
-    margin: 10vh 0;
+    margin: 7vh 0 0;
 }
 
 fieldset {
@@ -80,10 +82,42 @@ fieldset {
     border: none;
     box-shadow: 0px 5px 5px rgba(89, 156, 171, 0.5);
     margin-bottom: 1rem;
+    width: 100%;
+    min-width: 0;
 }
 
 fieldset>h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 48%;
+    font-size: 0.7rem;
+    min-width: 200px;
+}
+
+
+input[type="submit"] {
+    margin: 1rem 2rem;
+    color: #333;
+    padding: 0.5rem 1rem;
+    background-color: #01A8D5;
+    border-radius: 5px;
+}
+
+.login {
+    padding-left: 2rem;
 }
