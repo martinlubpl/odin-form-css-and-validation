@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+
+* {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    color: #ddd;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    
+}
+
+.leftside {
+    width: 40vw;
+    background: url('bgphoto.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logocontainer {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+.logocontainer>h3 {
+    color: #ddd;
+    font-weight: 700;
+    font-size: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-shadow: 2px 2px #333;
+}
+.logocontainer>img {
+    border-radius: 5px;
+}
+
+.source {
+    font-size: 0.5rem;
+    padding: 0.5rem;
+    color: #888;
+    text-align: center;
+}
+
+.source>a {
+    color: #999;
+    font-size: 0.6rem;
+}
+
+
+
+.rightside {
+    width: 60vw;
+    background-color: rgb(26, 45, 54);
+}
